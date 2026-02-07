@@ -6,4 +6,4 @@ Hopefully, you have a local way of compiling .tex files so you can have a proper
 
 Otherwise, I should probably put a quick summary of the games found in this repo:
 
-* Before The Crash: A cyberpunk adventure based on the Cortex Prime system
+* Before The Crash: A cyberpunk adventure based on the Cortex Prime toolkit
