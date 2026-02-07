@@ -8,6 +8,8 @@
 \usepackage[most]{tcolorbox}
 \usepackage{hyperref}
 \usepackage{hyperref-patches}
+\usepackage{imakeidx}
+
 
 \newenvironment{info}[1]{
     \begin{tcolorbox}[
@@ -23,6 +25,8 @@
 }
 
 \newenvironment{Theo}{begin_def}{end_def}
+
+\makeindex
 
 \begin{document}
 
@@ -42,5 +46,16 @@
 \include{IdeasSection}
 \include{Scratchpad}
 \include{SectionExample}
+\include{Introduction}
+\include{Characters}
+\include{DiceAndHowToUseThem}
+\include{DataAndLore}
+\include{GMSectionIntro}
+\include{SessionBreakdown}
+\include{CampaignBreakdown}
+\include{GMPCs}
+\include{CyberpunkAsAGenre}
+
+\printindex
 
 \end{document}
