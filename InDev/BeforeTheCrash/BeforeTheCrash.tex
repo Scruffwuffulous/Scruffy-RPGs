@@ -9,7 +9,17 @@
 \usepackage{hyperref}
 \usepackage{hyperref-patches}
 \usepackage{imakeidx}
+\usepackage{enumerate}
+\usepackage{enumitem}
 
+\renewcommand{\labelenumi}{\thesection.\arabic{enumi}}
+\renewcommand{\labelenumii}{\thesection.\arabic{enumi}.\arabic{enumii}}
+
+\newenvironment{ChapterSummary}{
+    \begin{enumerate}
+    }{
+    \end{enumerate}
+}
 
 \newenvironment{info}[1]{
     \begin{tcolorbox}[
