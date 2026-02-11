@@ -11,11 +11,24 @@
 \usepackage{imakeidx}
 \usepackage{enumerate}
 \usepackage{enumitem}
+\usepackage{fontspec}
+
+\newfontfamily\dice{dicefont.ttf}
 
 \renewcommand{\labelenumi}{\thesection.\arabic{enumi}}
 \renewcommand{\labelenumii}{\thesection.\arabic{enumi}.\arabic{enumii}}
 
 \newcommand{\First}{\textbf{F.I.R.S.T.} }
+\newcommand{\dfour}{{\dice ^^^^f130} }
+\newcommand{\dsix}{{\dice ^^^^f136} }
+\newcommand{\deight}{{\dice ^^^^f13e} }
+\newcommand{\dten}{{\dice ^^^^f100} }
+\newcommand{\dtwelve}{{\dice ^^^^f10e} }
+\newcommand{\dtwenty}{{\dice ^^^^f125} }
+
+
+
+
 
 \newenvironment{ChapterSummary}{
     \begin{enumerate}
